@@ -1,0 +1,65 @@
+.cover {
+  background: #223;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+  height: calc(100 * var(--vh));
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.cover-gradient {
+  background: linear-gradient( rgba(0,0,0,.0), rgba(0,0,0,1));
+  box-sizing: border-box;
+  padding: $gap*3 $gap*.5;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  .cover-logos {
+    margin-top: 200px;
+    @media (min-width: map-get($media-queries-limit, "mobile")) {
+      width: 400px;
+    }
+  }
+  .cover-title {
+    margin: 10px auto;
+    font-size: 36px;
+    line-height: 38px;
+    @media (max-width: calc(map-get($media-queries-limit, "mobile") - 1px)) {
+      &.cover-title-large {
+        font-size: 30px;
+        line-height: 34px;
+      }
+    }
+    @media (min-width: map-get($media-queries-limit, "mobile")) {
+      max-width: 700px;
+      font-size: 52px;
+      line-height: 60px;
+    }
+  }
+  .cover-subtitle {
+    color: #fff;
+    text-align: center;
+    max-width: 450px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 400;
+    @media (min-width: map-get($media-queries-limit, "mobile")) {
+      font-size: 21px;
+      max-width: 500px;
+    }
+    a {
+      color: #fff;
+      font-size: 16px;
+      @media (min-width: map-get($media-queries-limit, "mobile")) {
+        font-size: 21px;
+      }
+      &:hover {
+        background: none;
+      }
+    }
+  }
+}

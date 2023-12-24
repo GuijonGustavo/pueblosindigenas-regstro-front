@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= process.env.VUE_APP_TITLE %></title>
+    <meta name="description" content="<%= process.env.VUE_APP_DESCRIPTION %>">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:url" content="<%= process.env.VUE_APP_ENI_DOMAIN %><%= process.env.VUE_APP_BASE_ROUTE %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:title" content="<%= process.env.VUE_APP_TITLE %>" />
+    <meta property="og:site_name" content="<%= process.env.VUE_APP_TITLE %>" />
+    <meta property="og:description" content="<%= process.env.VUE_APP_DESCRIPTION %>" />
+    <meta property="og:image" content="<%= process.env.VUE_APP_ENI_DOMAIN %><%= process.env.VUE_APP_BASE_ROUTE %>/og.jpg" />
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Conacyt_MX">
+    <meta name="twitter:creator" content="@Conacyt_MX">
+    <meta name="twitter:title" content="<%= process.env.VUE_APP_TITLE %>">
+    <meta name="twitter:description" content="<%= process.env.VUE_APP_DESCRIPTION %>">
+    <meta name="twitter:image" content="<%= process.env.VUE_APP_ENI_DOMAIN %><%= process.env.VUE_APP_BASE_ROUTE %>/og.jpg">
+  </head>
+  <body>
+    <noscript>
+      <style>
+        .noscript {
+          font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: normal;
+          color: #141414;
+          line-height: 1.6em;
+          margin: 20vh auto;
+          padding: 0 10vw;
+          width: 80%;
+          max-width: 700px;
+        }
+      </style>
+      <div class="noscript">
+        <h1><%= process.env.VUE_APP_TITLE %></h1>
+        <p><%= process.env.VUE_APP_DESCRIPTION %></p>
+        <p>Para visualizar éste sitio necesitas activar JavaScript.</p>
+      </div>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>

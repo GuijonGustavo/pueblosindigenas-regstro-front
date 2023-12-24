@@ -1,0 +1,111 @@
+$color-gob: (
+  "verde": #13322B,
+  "verde-obscuro": #0b231e,
+  "verde-claro": #285C4D,
+  "dorado": #B38E5D,
+  "beige": #D4C19C,
+  "tinto": #9D2446,
+);
+
+$color-conacyt: (
+  "azul": #002663,
+  "gris-obscuro": #141414,
+  "gris-claro": #8C8D8E,
+  "fondo": linear-gradient(to bottom, #003384, #002663,#001c4a),
+  "texto": #fff,
+  "link": #d5d5d5,
+  "link-hover": #13aff0,
+);
+
+$color: (
+  "fondo": #fff,
+  "texto": #141414,
+  "borde": #ddd,
+);
+
+$color-nav: (
+  "fondo": #fff,
+  "fondo-hover-cel": #002663,
+  "fondo-hover": linear-gradient(to bottom, #fff 0%, #fff 90%,#001c4a 90%, #001c4a 100%),
+  "sub-fondo": #002663,
+  "texto": #002663,
+  "texto-gob": #fff,
+  "texto-conacyt": #002663,
+  "texto-hover": #003384,
+  "texto-hover-cel": #fff,
+  "borde": #0007
+);
+
+$a11y-contraste: (
+  "fondo": #222,
+  "texto": #fff
+);
+
+$color-link: (
+  "fondo": #fff,
+  "texto": #0770E9,
+  "hover-fondo": #0770E9,
+  "hover-texto": #fff,
+  "focus-fondo": #E8E8E8,
+  "focus-texto": #0770E9
+);
+
+$color-boton: (
+  "fondo": #141414,
+  "texto": #fff,
+  "hover-fondo": #505050,
+  "hover-texto": #fff,
+  "focus-fondo": #e8e8e8,
+  "focus-texto": #141414,
+);
+$size-btn: (
+  "large": 16px,
+  "medium": 16px,
+  "normal": 16px,
+  "small": 12px
+);
+
+$color-tabla: (
+  "borde": #ddd,
+);
+
+$color-formulario: (
+  "borde": #aaa,
+  "texto": #141414,
+  "hover-borde": #eee,
+  "hover-texto": #141414,
+  "focus-borde": #eee,
+  "focus-texto": #141414
+);
+
+$fuente: (
+  "size-titulo": 24px,
+  "size-subtitulo": 22px,
+  "size-alto": 18px,
+  "size-primario": 16px,
+  "size-secundario": 14px,
+  "size-notas": 12px,
+  "size-boton": 10px,
+);
+
+$gap: 30px;
+
+$margin-variations: 5;
+
+$width: (
+  'max-main': 1400px,
+  'max-view': 1024px,
+  'max-text': 700px,
+);
+
+$media-queries-limit: (
+  "mobile": 769px,
+  "tablet": 1025px,
+  "navegacion": 1025px,
+);
+
+$media-queries-since: (
+  "sm": 0,
+  "md": 769px,
+  "lg": 1025px,
+);

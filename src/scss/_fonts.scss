@@ -1,0 +1,103 @@
+// typografia
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("~@/assets/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~@/assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("~@/assets/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("~@/assets/fonts/Montserrat-SemiBold.ttf");
+}
+// iconos
+@font-face {
+  font-family: "iconos";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("~@/assets/fonts/Montserrat-R_V3.ttf");
+}
+[class^="icono-"]:before,
+[class*=" icono-"]:before {
+  font-family: "iconos" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icono-acercar::before {
+  content: "Ɓ";
+}
+.icono-alejar::before {
+  content: "Ƃ";
+}
+.icono-centrar::before {
+  content: "ƃ";
+}
+.icono-cerrar::before {
+  content: "Ƅ";
+}
+.icono-check::before {
+  content: "ƅ";
+}
+.icono-descargar::before {
+  content: "Ɔ";
+}
+.icono-seleccion::before {
+  content: "Ƈ";
+}
+.icono-atras::before {
+  content: "ƈ";
+}
+
+// social
+@font-face {
+  font-family: "social";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src:url("~@/assets/fonts/social.ttf");
+}
+[class^="social-"]:before,
+[class*=" social-"]:before {
+  font-family: "social" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.social-facebook:before {
+  content: "\61";
+}
+.social-instagram:before {
+  content: "\62";
+}
+.social-twitter:before {
+  content: "\63";
+}
+.social-youtube:before {
+  content: "\64";
+}

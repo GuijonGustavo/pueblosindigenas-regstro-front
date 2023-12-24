@@ -1,0 +1,25 @@
+.btn-lg {
+  font-size: map-get($size-btn, "large");
+  padding: map-get($size-btn, "large")*.5 map-get($size-btn, "large")*.5;
+  height: 50px;
+}
+.btn-md {
+  font-size: map-get($size-btn, "medium");
+  padding: map-get($size-btn, "medium")*.25 map-get($size-btn, "medium");
+}
+.btn-sm {
+  font-size: map-get($size-btn, "small");
+  padding: map-get($size-btn, "small")*.25 map-get($size-btn, "small")*.5;
+}
+.btn-block {
+  width: 100%;
+}
+.btn-bold {
+  font-weight: 500;
+}
+
+.btn-eliminar {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}

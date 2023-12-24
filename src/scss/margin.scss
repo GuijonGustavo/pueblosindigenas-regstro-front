@@ -1,0 +1,106 @@
+.m-x-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+@for $m from 0 through $margin-variations {
+  .m-#{$m} {
+    margin: $gap * $m;
+  }
+  .m-x-#{$m} {
+    margin-left: $gap * $m;
+    margin-right: $gap * $m;
+  }
+  .m-y-#{$m} {
+    margin-bottom: $gap * $m;
+    margin-top: $gap * $m;
+  }
+  .m-l-#{$m} {
+    margin-left: $gap * $m;
+  }
+  .m-r-#{$m} {
+    margin-right: $gap * $m;
+  }
+  .m-t-#{$m} {
+    margin-top: $gap * $m;
+  }
+  .m-b-#{$m} {
+    margin-bottom: $gap * $m;
+  }
+  .m--#{$m} {
+    margin: -($gap) * $m;
+  }
+  .m--x-#{$m} {
+    margin-left: -($gap) * $m;
+    margin-right: -($gap) * $m;
+  }
+  .m--y-#{$m} {
+    margin-bottom: -($gap) * $m;
+    margin-top: -($gap) * $m;
+  }
+  .m--l-#{$m} {
+    margin-left: -($gap) * $m;
+  }
+  .m--r-#{$m} {
+    margin-right: -($gap) * $m;
+  }
+  .m--t-#{$m} {
+    margin-top: -($gap) * $m;
+  }
+  .m--b-#{$m} {
+    margin-bottom: -($gap) * $m;
+  }
+}
+
+
+@each $label, $since in $media-queries-since {
+  @media screen and (min-width: $since) {
+    @for $m from 0 through $margin-variations {
+      .m-#{$m}-#{$label} {
+        margin: $gap * $m;
+      }
+      .m-x-#{$m}-#{$label} {
+        margin-left: $gap * $m;
+        margin-right: $gap * $m;
+      }
+      .m-y-#{$m}-#{$label} {
+        margin-bottom: $gap * $m;
+        margin-top: $gap * $m;
+      }
+      .m-l-#{$m}-#{$label} {
+        margin-left: $gap * $m;
+      }
+      .m-r-#{$m}-#{$label} {
+        margin-right: $gap * $m;
+      }
+      .m-t-#{$m}-#{$label} {
+        margin-top: $gap * $m;
+      }
+      .m-b-#{$m}-#{$label} {
+        margin-bottom: $gap * $m;
+      }
+      .m--#{$m}-#{$label} {
+        margin: -($gap) * $m;
+      }
+      .m--x-#{$m}-#{$label} {
+        margin-left: -($gap) * $m;
+        margin-right: -($gap) * $m;
+      }
+      .m--y-#{$m}-#{$label} {
+        margin-bottom: -($gap) * $m;
+        margin-top: -($gap) * $m;
+      }
+      .m--l-#{$m}-#{$label} {
+        margin-left: -($gap) * $m;
+      }
+      .m--r-#{$m}-#{$label} {
+        margin-right: -($gap) * $m;
+      }
+      .m--t-#{$m}-#{$label} {
+        margin-top: -($gap) * $m;
+      }
+      .m--b-#{$m}-#{$label} {
+        margin-bottom: -($gap) * $m;
+      }
+    }
+  }
+}

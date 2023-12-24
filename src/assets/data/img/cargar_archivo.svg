@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="401" height="50" viewBox="0 0 401 50">
+  <g id="Grupo_10725" data-name="Grupo 10725" transform="translate(-727 -348)">
+    <rect id="Rectángulo_5662" data-name="Rectángulo 5662" width="401" height="50" rx="5" transform="translate(727 348)"/>
+    <g id="Grupo_10717" data-name="Grupo 10717" transform="translate(843.5 364)">
+      <text id="Cargar_archivo" data-name="Cargar archivo" transform="translate(37.5 15)" fill="#fff" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Cargar archivo</tspan></text>
+      <g id="download" transform="translate(27.852 18) rotate(180)">
+        <path id="Trazado_28911" data-name="Trazado 28911" d="M11,0V2H1V0H0V2H0A1,1,0,0,0,1,3H11a1,1,0,0,0,1-1h0V0Z" transform="translate(2 12)" fill="#fff"/>
+        <path id="Trazado_28912" data-name="Trazado 28912" d="M10,6l-.7-.7L5.5,9.085V0h-1V9.085L.7,5.3,0,6l5,5Z" transform="translate(3 1)" fill="#fff"/>
+        <g id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;">
+          <rect id="Rectángulo_5611" data-name="Rectángulo 5611" width="16" height="16" transform="translate(0.352)" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

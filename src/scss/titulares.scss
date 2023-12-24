@@ -1,0 +1,38 @@
+.titular-alto {
+  font-size: 42px;
+  font-weight: 800;
+  @media (min-width: map-get($media-queries-limit, "mobile")) {
+    font-size: 80px;
+    line-height: 86px;
+  }
+}
+.titular-bajo {
+  font-size: 30px;
+  font-weight: 800;
+  @media (min-width: map-get($media-queries-limit, "mobile")) {
+    font-size: 35px;
+  }
+}
+.titular-portada {
+  @extend .titular-bajo;
+  max-width: 550px;
+  &.sub {
+    font-size: 16px;
+  }
+  @media (min-width: map-get($media-queries-limit, "mobile")) {
+    text-align: center;
+    &.sub {
+      font-size: 21px;
+    }
+  }
+}
+.titulo {
+  font-size: map-get($fuente, "size-titulo");
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.subtitulo {
+  font-size: map-get($fuente, "size-subtitulo");
+  font-weight: 600;
+  line-height: 1.2em;
+}

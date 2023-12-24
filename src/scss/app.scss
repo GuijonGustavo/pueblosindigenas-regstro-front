@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+  --vh: 1px;
+}
+
+@import "_variables";
+@import "_fonts";
+@import "normalize";
+@import "titulares";
+@import "texto";
+@import "botones";
+@import "iconos";
+@import "margin";
+@import "cover";
+@import "a11y";
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - #{$gap*2});
+  max-width: map-get($width, "max-view");
+  &.text {
+    max-width: map-get($width, "max-text");
+  }
+  .container,
+  .grid-link-cover-img {
+    width: 100%;
+  }
+}

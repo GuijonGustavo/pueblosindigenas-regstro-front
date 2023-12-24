@@ -1,0 +1,34 @@
+{
+    "Portada": {
+        "nombre": "Portada",
+        "clave": "portada"
+    },
+    "Introduccion": {
+      "nombre": "Introducción",
+      "clave": "intro"
+  },
+    "DatosGenerales": {
+        "nombre": "Datos generales",
+        "clave": "infoGeneral"
+    },
+    "Territorio": {
+        "nombre": "Territorio",
+        "clave": "territorio"
+    },
+    "OrganizacionPolitica": {
+        "nombre": "Organización política",
+        "clave": "orgPolitica"
+    },
+    "Sociedad": {
+        "nombre": "Sociedad",
+        "clave": "sociedad"
+    },
+    "Cultura": {
+        "nombre": "Cultura",
+        "clave": "cultura"
+    },
+    "Economia": {
+        "nombre": "Economia",
+        "clave": "economia"
+    }
+}

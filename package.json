@@ -1,0 +1,40 @@
+{
+  "name": "pueblosindigenas",
+  "version": "0.2.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service build --mode pruebas",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "dai-maps": "git+https://codigo.conahcyt.mx/sisdai/sisdai-mapas#v0.5.1",
+    "jquery": ">=1.8",
+    "sweetalert2": "^11.4.0",
+    "trumbowyg": "^2.21.0",
+    "vue": "^2.6.11",
+    "vue-matomo": "^4.1.0",
+    "vue-router": "^3.2.0",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-trumbowyg": "^3.6.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.2.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

@@ -1,0 +1,21 @@
+.texto-alto {
+  font-size: map-get($fuente, "size-alto");
+}
+.texto-primario {
+  font-size: map-get($fuente, "size-primario");
+}
+.texto-secundario {
+  font-size: map-get($fuente, "size-secundario");
+}
+.texto-notas {
+  font-size: map-get($fuente, "size-notas");
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.instrucciones {
+  color: #626262;
+  font-weight: 300;
+}
