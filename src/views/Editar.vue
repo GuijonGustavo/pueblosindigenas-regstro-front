@@ -60,8 +60,8 @@
           
           
         </div>
-
-        <div class="flex-between" :style="accionesDisabled">
+        <!-- <div class="flex-between" :style="accionesDisabled"> -->
+        <div class="flex-between" :style="display">
           <!-- <button v-on:click="enablePublicar" id="Guardar" class="guardar" style="pointer-events: none">Guardar</button> -->
           <button v-on:click="eliminarPueblo" id="eliminarPueblo" class="btn btn-eliminar">Eliminar</button>
           <button v-on:click="envioCambios" id="Guardar" class="btn btn-md">Publicar</button>
